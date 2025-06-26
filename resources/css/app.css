@@ -1,0 +1,33 @@
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.announcement-img {
+    display: block; /* Ensures the image behaves as a block element */
+    max-width: 100%; /* Scales the image to fit the container width */
+    height: auto; /* Maintains the aspect ratio */
+    max-height: 300px; /* Limits the height to 300px */
+    margin: 0 auto; /* Centers the image if smaller */
+    border-radius: 5px; /* Adds rounded corners */
+    object-fit: scale-down; /* Ensures the full image is visible */
+}
+
+
+/* Styling for announcements container */
+#announcements {
+    padding: 10px;
+    background-color: #f9f9f9; /* Light background for better contrast */
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
+}
+
+/* Form styling for adding announcements */
+#announcement-form {
+    background-color: #ffffff; /* White background for form */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for better separation */
+}
